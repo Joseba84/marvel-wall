@@ -7,7 +7,6 @@
       <div role="img" aria-label="" class="grow aspect-ratio--4x6 " :style="{ 'background-image': 'url(' + item.thumbnail.path  + '.'+item.thumbnail.extension + ')'}"></div>
     </a>
   </article>
-   
 </template>
 
 <script>
