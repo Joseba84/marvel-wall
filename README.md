@@ -3,7 +3,6 @@
 > Project to display MARVEL API data
 
 ## Build Setup
-
 ``` bash
 # install dependencies
 npm install
