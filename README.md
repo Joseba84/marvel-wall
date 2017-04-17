@@ -1,6 +1,6 @@
-# nasa-store
+# marvel-wall
 
-> Project to display NASA public API data
+> Project to display MARVEL API data
 
 ## Build Setup
 
