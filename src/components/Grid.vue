@@ -46,5 +46,27 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style lang="scss" scoped>
+.card {
+    position: relative;
+}
+.grow {
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover; 
+}
+.wrapper {
+    opacity:0;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    padding:20px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    z-index:10;
+    transition: opacity .6s;
+    &:hover {
+        opacity: 1;
+    }
+}
 </style>
